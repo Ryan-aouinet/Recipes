@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../styles.css">
 </head>
-<body>
+<body class="lasagna-page">
     <a href="../index.html" id="top">
         <img src="../images/images.jpeg" alt="" height="50">
     </a>
-    <h1>Lasagna</h1>
-    <ul>
+    <h1 class="name-of-recipe">Lasagna</h1>
+    <ul id="ingredients-and-steps">
         <li><a href="#ingredients">Ingredients</a></li>
         <li><a href="#Steps">Steps</a></li>
     </ul>
-    <img src="../images/download.jpeg" alt="" title="Lasagna">
-    <h3>Description</h3>
-    <p><strong>Lasagna</strong> <em>(UK: /ləˈzænjə/,[1] US: /ləˈzɑːnjə/; Italian: [laˈzaɲɲa]), also known as lasagne (Italian: [laˈzaɲɲe]),
-        is a type of pasta, possibly one of the oldest types,
-        [2] made in very wide, flat sheets. In Italian cuisine it is made of stacked layers of pasta alternating with fillings such as ragù (ground meats and tomato sauce),
-         béchamel sauce, vegetables, cheeses (which may include ricotta, mozzarella, and Parmesan), and seasonings and spices.[3] The dish may be topped with grated cheese,
-         which melts during baking. Typically cooked pasta is assembled with the other ingredients and then baked in an oven (al forno). The resulting baked pasta is cut into single-serving square or rectangular portions.</em>
-    </p>
-    <h5 id = "ingredients">Ingredients</h5>
+    <div class="container">
+        <div class="image">
+            <img src="../images/download.jpeg" alt="" title="Lasagna">
+        </div>
+        <div class="description">
+            <div class="child-description">
+                 <h3>Description</h3>
+            </div>
+            <p><strong>Lasagna</strong> <em>(UK: /ləˈzænjə/,[1] US: /ləˈzɑːnjə/; Italian: [laˈzaɲɲa]), also known as lasagne (Italian: [laˈzaɲɲe]),
+                is a type of pasta, possibly one of the oldest types,
+                [2] made in very wide, flat sheets. In Italian cuisine it is made of stacked layers of pasta alternating with fillings such as ragù (ground meats and tomato sauce),
+                béchamel sauce, vegetables, cheeses (which may include ricotta, mozzarella, and Parmesan), and seasonings and spices.[3] The dish may be topped with grated cheese,
+                which melts during baking. Typically cooked pasta is assembled with the other ingredients and then baked in an oven (al forno). The resulting baked pasta is cut into single-serving square or rectangular portions.</em>
+            </p>
+        </div>
+    </div>
+    <h3 id = "ingredients">Ingredients</h5>
     <p>To make lasagna you need :</p>
     <ul1>
         <li>Bolognese sauce
@@ -64,7 +73,7 @@
         </li>
     </ol>
     <a href="#top">
-        <img src="../images/top.png" alt="" height="50">
+        <img src="../images/top.png" alt="" height="50" id="arrow">
     </a>
 </body>
 </html>
