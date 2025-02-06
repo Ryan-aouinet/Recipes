@@ -29,6 +29,8 @@ a{
 .pizza-page{
     background: rgb(34,193,195);
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    margin-left: 100px;
+    font-size: larger;
 }
 #ingredients-and-steps{
     margin: 30px;
@@ -52,7 +54,32 @@ a{
     font-size: 50px;
 }
 #arrow{
-    
+    height: 50px;
     position: absolute;
     right: 0;
+    background-color: transparent;
+}
+
+#pizza-2,#pizza-1,#pizza-3,#pizza-4,#pizza-5,
+#pizza-6,#pizza-7,#pizza-8,#pizza-9,#pizza-10,
+#pizza-11,#pizza-12{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+}
+   
+#pizza-ingredients-list{
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    margin: 20px;
+}
+.top-arrow{
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+#steps{
+    font-size:50px;
+
 }
